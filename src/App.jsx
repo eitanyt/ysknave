@@ -48,8 +48,7 @@ function App() {
                 <a href="tel:0527906656" className="hover:text-blue-200">052-7906656</a>
               </div>
             </div>
-            <p>&copy; כל הזכויות שמורות | ישיבת אור חדש</p>
-            <p>אתרא קדישא בע"מ</p>
+            <p>&copy; כל הזכויות שמורות | <a href="tel:0546286423" className="hover:text-blue-200">אתרא קדישא</a></p>
           </div>
         </footer>
       </div>

@@ -4,7 +4,7 @@ function Home() {
     return (
       <div className="min-h-screen bg-cover bg-center bg-no-repeat relative"
            style={{
-             backgroundImage: "url('/20240924_220955.JPG')",
+             backgroundImage: "url('/img_1.JPG')",
            }}>
         {/* שכבה כהה חצי שקופה מעל התמונה (אופציונלי) */}
         <div className="absolute inset-0 bg-black/30"></div>
