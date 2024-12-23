@@ -16,7 +16,7 @@ export default function Gallery() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-8 text-center">גלריית תמונות</h1>
+      <h1 className="text-3xl font-bold mb-8 text-center">טעמו וראו כי טוב</h1>
       
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {imageList.map((imagePath, index) => (

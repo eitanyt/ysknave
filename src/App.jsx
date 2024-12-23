@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import  Home  from './pages/Home';
-import  About  from './pages/About';
-import  StudyPrograms  from './pages/StudyPrograms';
-import  CommunityLife  from './pages/CommunityLife';
-import  Registration  from './pages/Regis';
-import  Contact from './pages/Contact';
+import Home from './pages/Home';
+import About from './pages/About';
+import StudyPrograms from './pages/StudyPrograms';
+import CommunityLife from './pages/CommunityLife';
+import Registration from './pages/Regis';
+import Contact from './pages/Contact';
 import Navigation from './components/Navigation';
 import { Forms } from './components/forms';
 import Gallery from './pages/Gallery';
@@ -13,11 +13,11 @@ import Gallery from './pages/Gallery';
 function App() {
   return (
     <Router>
-      <div className="h-screen flex flex-col">  
+      <div className="flex flex-col">
         <Navigation />
-        
+
         {/* Main Content */}
-        <main className="flex-grow relative">
+        <main className="flex-grow relative" dir="rtl">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -32,14 +32,14 @@ function App() {
         {/* Footer */}
         <footer className="bg-blue-900 text-white py-6" dir="rtl">
           <div className="container mx-auto text-center">
-            <div className="flex flex-col items-center gap-2 mb-4">
+            <div className="flex items-center justify-center gap-2 mb-4">
               <div className="flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                 </svg>
                 <a href="mailto:info@orhadas.edu" className="hover:text-blue-200">yeshivaktananava@gmail.com
 
-</a>
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">

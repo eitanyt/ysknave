@@ -12,7 +12,7 @@ function Navbar() {
     <nav className="bg-blue-800 text-white p-4 relative z-10">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold">ישיבת אור חדש</Link>
-        
+
         {/* Desktop menu */}
         <div className="hidden md:flex gap-8 items-center">
           <Link to="/about" className="hover:text-blue-200">אודות</Link>
@@ -25,7 +25,7 @@ function Navbar() {
 
         {/* Mobile menu toggle */}
         <div className="md:hidden">
-          <button 
+          <button
             className="mobile-menu-button"
             onClick={toggleMobileMenu}
           >
