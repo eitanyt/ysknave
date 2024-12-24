@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function CommunityLife() {
     return (
       <div>
-        <h1 className="text-3xl font-bold mb-6">חיי הקהילה</h1>
+        <h1 className="text-3xl font-bold mb-6">מהנעשה בישיבה</h1>
         
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">אירועים</h2>

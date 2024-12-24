@@ -14,12 +14,12 @@ function Navbar() {
         <Link to="/" className="text-2xl font-bold">ישיבת אור חדש</Link>
 
         {/* Desktop menu */}
-        <div className="hidden md:flex gap-8 items-center">
+        <div className="hidden md:flex gap-8 items-center" dir="rtl">
           <Link to="/about" className="hover:text-blue-200">אודות</Link>
-          <Link to="/study-programs" className="hover:text-blue-200">תוכניות לימוד</Link>
-          <Link to="/community-life" className="hover:text-blue-200">חיי הקהילה</Link>
+          <Link to="/study-programs" className="hover:text-blue-200">סדר יום</Link>
+          <Link to="/community-life" className="hover:text-blue-200">אירועים</Link>
           <Link to="/registration" className="hover:text-blue-200">הרשמה</Link>
-          <Link to="/contact" className="hover:text-blue-200">צור קשר</Link>
+          {/* <Link to="/contact" className="hover:text-blue-200">צור קשר</Link> */}
           <Link to="/gallery" className="hover:text-blue-200">גלריה</Link>
         </div>
 
