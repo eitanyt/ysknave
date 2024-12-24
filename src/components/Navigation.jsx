@@ -11,7 +11,10 @@ function Navbar() {
   return (
     <nav className="bg-blue-800 text-white p-4 relative z-10">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-2xl font-bold">ישיבת אור חדש</Link>
+        <Link to="/" className="text-2xl font-bold flex" >ישיבת אור חדש
+        {/* /מייבא את ysk.svg */}
+          <img src="ysk.svg" alt="Logo" className="h-8 ml-2"/>
+        </Link>
 
         {/* Desktop menu */}
         <div className="hidden md:flex gap-8 items-center" dir="rtl">
