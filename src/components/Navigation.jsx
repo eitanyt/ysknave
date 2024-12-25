@@ -12,8 +12,8 @@ function Navbar() {
     <nav className="bg-blue-800 text-white p-4 relative z-10">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold flex" >ישיבת אור חדש
-        {/* /מייבא את ysk.svg */}
-          <img src="ysk.svg" alt="Logo" className="h-8 ml-2"/>
+          {/* /מייבא את ysk.svg */}
+          <img src="ysk.svg" alt="Logo" className="h-8 ml-2" />
         </Link>
 
         {/* Desktop menu */}
@@ -39,19 +39,19 @@ function Navbar() {
         </div>
 
         {/* Mobile menu */}
+        </div>
         {isMobileMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 w-full bg-blue-800">
+          <div className="md:hidden top-full left-0 w-full bg-blue-800">
             <div className="flex flex-col items-center py-4 space-y-4">
-              <Link to="/about" className="hover:text-blue-200">אודות</Link>
-              <Link to="/study-programs" className="hover:text-blue-200">תוכניות לימוד</Link>
-              <Link to="/community-life" className="hover:text-blue-200">חיי הקהילה</Link>
-              <Link to="/registration" className="hover:text-blue-200">הרשמה</Link>
-              <Link to="/contact" className="hover:text-blue-200">צור קשר</Link>
-              <Link to="/gallery" className="hover:text-blue-200">גלריה</Link>
+            <Link to="/about" className="hover:text-blue-200">אודות</Link>
+          <Link to="/study-programs" className="hover:text-blue-200">סדר יום</Link>
+          <Link to="/community-life" className="hover:text-blue-200">אירועים</Link>
+          <Link to="/registration" className="hover:text-blue-200">הרשמה</Link>
+          {/* <Link to="/contact" className="hover:text-blue-200">צור קשר</Link> */}
+          <Link to="/gallery" className="hover:text-blue-200">גלריה</Link>
             </div>
           </div>
         )}
-      </div>
     </nav>
   );
 }
