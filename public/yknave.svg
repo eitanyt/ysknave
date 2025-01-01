@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- מעגל רקע -->
+  <circle cx="200" cy="200" r="180" fill="#2c3e50"/>
+  
+  <!-- סמל האור - גדול ומודגש יותר -->
+  <circle cx="200" cy="200" r="120" fill="#ffd700" opacity="0.2"/>
+  <circle cx="200" cy="200" r="90" fill="#ffd700" opacity="0.4"/>
+  <circle cx="200" cy="200" r="60" fill="#ffd700"/>
+  
+  <!-- טקסט מודגש -->
+  <text x="200" y="190" text-anchor="middle" 
+        font-family="Arial" font-size="60" fill="#ffffff" 
+        font-weight="bold">אור</text>
+  
+  <text x="200" y="250" text-anchor="middle" 
+        font-family="Arial" font-size="40" fill="#ffffff" 
+        font-weight="bold">חדש</text>
+</svg>
