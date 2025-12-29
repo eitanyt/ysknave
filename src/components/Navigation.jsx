@@ -11,9 +11,9 @@ function Navbar() {
   return (
     <nav className="bg-blue-800 text-white p-4 relative z-10">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-2xl font-bold flex" >ישיבת אור חדש
+        <Link to="/" className="text-2xl font-bold flex" >
           {/* /מייבא את ysk.svg */}
-          <img src="ysk.svg" alt="Logo" className="h-8 ml-2" />
+          <img src="לוגו סופי.png" alt="Logo" className="h-8 ml-2" />
         </Link>
 
         {/* Desktop menu */}
