@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 function Home() {
     return (
-      <div className="min-h-screen bg-cover bg-center bg-no-repeat flex flex-col justify-center relative"
+      <div className="flex-grow bg-cover bg-center bg-no-repeat flex flex-col justify-center relative"
            style={{
              backgroundImage: "url('/img_1.jpg')",
            }}>
