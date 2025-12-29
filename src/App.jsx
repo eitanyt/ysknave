@@ -13,11 +13,11 @@ import Gallery from './pages/Gallery';
 function App() {
   return (
     <Router>
-      <div className="flex flex-col">
+      <div className="flex flex-col min-h-screen">
         <Navigation />
 
         {/* Main Content */}
-        <main className="flex-grow relative" dir="rtl">
+        <main className="flex flex-grow" dir="rtl">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
