@@ -9,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-amber-50 text-white p-4 relative z-10 text-orange-950">
+    <nav className="bg-amber-50 p-4 relative z-10 text-orange-950">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold flex" >
           {/* /מייבא את ysk.svg */}
@@ -17,11 +17,11 @@ function Navbar() {
         </Link>
 
         {/* Desktop menu */}
-        <div className="hidden md:flex gap-8 items-center" dir="rtl">
+        <div className="hidden md:flex gap-8 items-center text-orange-950" dir="rtl">
           {/* <Link to="/about" className="hover:text-blue-200">אודות</Link>
           <Link to="/study-programs" className="hover:text-blue-200">סדר יום</Link>
           <Link to="/community-life" className="hover:text-blue-200">אירועים</Link> */}
-          <Link to="/" className="hover:text-orange-800">בית</Link>
+          <Link to="/" className="text-orange-950 hover:text-orange-800">בית</Link>
           <Link to="/registration" className="hover:text-orange-800">הרשמה</Link>
           {/* <Link to="/contact" className="hover:text-orange-800">צור קשר</Link> */}
           <Link to="/gallery" className="hover:text-orange-800">גלריה</Link>
@@ -42,15 +42,15 @@ function Navbar() {
         {/* Mobile menu */}
         </div>
         {isMobileMenuOpen && (
-          <div className="md:hidden top-full left-0 w-full bg-blue-800">
+          <div className="md:hidden top-full left-0 w-full bg-amber-50">
             <div className="flex flex-col items-center py-4 space-y-4">
           {/* <Link to="/about" className="hover:text-blue-200">אודות</Link>
           <Link to="/study-programs" className="hover:text-blue-200">סדר יום</Link>
           <Link to="/community-life" className="hover:text-blue-200">אירועים</Link> */}
-          <Link to="/" className="hover:text-blue-200">בית</Link>
-          <Link to="/registration" className="hover:text-blue-200">הרשמה</Link>
-          {/* <Link to="/contact" className="hover:text-blue-200">צור קשר</Link> */}
-          <Link to="/gallery" className="hover:text-blue-200">גלריה</Link>
+          <Link to="/" className="text-orange-950 hover:text-orange-800">בית</Link>
+          <Link to="/registration" className="text-orange-950 hover:text-orange-800">הרשמה</Link>
+          {/* <Link to="/contact" className="text-orange-950 hover:text-orange-800">צור קשר</Link> */}
+          <Link to="/gallery" className="text-orange-950 hover:text-orange-800">גלריה</Link>
             </div>
           </div>
         )}
