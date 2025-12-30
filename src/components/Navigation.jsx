@@ -9,11 +9,11 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-blue-800 text-white p-4 relative z-10">
+    <nav className="bg-amber-50 text-white p-4 relative z-10 text-orange-950">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold flex" >
           {/* /מייבא את ysk.svg */}
-          <img src="לוגו סופי.png" alt="Logo" className="h-8 ml-2" />
+          <img src="לוגו.png" alt="Logo" className="absolute top-0 h-24 ml-2" />
         </Link>
 
         {/* Desktop menu */}
@@ -21,10 +21,10 @@ function Navbar() {
           {/* <Link to="/about" className="hover:text-blue-200">אודות</Link>
           <Link to="/study-programs" className="hover:text-blue-200">סדר יום</Link>
           <Link to="/community-life" className="hover:text-blue-200">אירועים</Link> */}
-          <Link to="/" className="hover:text-blue-200">בית</Link>
-          <Link to="/registration" className="hover:text-blue-200">הרשמה</Link>
-          {/* <Link to="/contact" className="hover:text-blue-200">צור קשר</Link> */}
-          <Link to="/gallery" className="hover:text-blue-200">גלריה</Link>
+          <Link to="/" className="hover:text-orange-800">בית</Link>
+          <Link to="/registration" className="hover:text-orange-800">הרשמה</Link>
+          {/* <Link to="/contact" className="hover:text-orange-800">צור קשר</Link> */}
+          <Link to="/gallery" className="hover:text-orange-800">גלריה</Link>
         </div>
 
         {/* Mobile menu toggle */}

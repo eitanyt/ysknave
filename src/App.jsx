@@ -30,7 +30,7 @@ function App() {
         </main>
 
         {/* Footer */}
-        <footer className="bg-blue-900 text-white py-3" dir="rtl">
+        <footer className="bg-orange-950 text-white py-3" dir="rtl">
           <div className="container mx-auto text-center">
             <div className="flex items-center justify-center gap-2 mb-4">
               <div className="flex items-center gap-2">
