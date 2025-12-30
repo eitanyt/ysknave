@@ -1,8 +1,14 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react'; 
+import { Link, useLocation } from 'react-router-dom'; 
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation(); // מאזין למיקום הנוכחי בדפדפן
+
+  // בכל פעם שהנתיב (URL) משתנה - סוגר את התפריט
+  useEffect(() => {
+    setIsMobileMenuOpen(false);
+  }, [location]);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
