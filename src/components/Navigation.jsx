@@ -12,7 +12,6 @@ function Navbar() {
     <nav className="bg-amber-50 p-4 relative z-10 text-orange-950">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold flex" >
-          {/* /מייבא את ysk.svg */}
           <img src="לוגו.png" alt="Logo" className="absolute top-0 h-24 ml-2" />
         </Link>
 
