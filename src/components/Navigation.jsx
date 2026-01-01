@@ -23,10 +23,10 @@ function Navbar() {
 
         {/* Desktop menu */}
         <div className="hidden md:flex gap-8 items-center text-orange-950" dir="rtl">
-          {/* <Link to="/about" className="hover:text-blue-200">אודות</Link>
-          <Link to="/study-programs" className="hover:text-blue-200">סדר יום</Link>
+          {/*<Link to="/study-programs" className="hover:text-blue-200">סדר יום</Link>
           <Link to="/community-life" className="hover:text-blue-200">אירועים</Link> */}
           <Link to="/" className="text-orange-950 hover:text-orange-800">בית</Link>
+          <Link to="/about" className="text-orange-950 hover:text-orange-800">אודות</Link>
           <Link to="/registration" className="hover:text-orange-800">הרשמה</Link>
           {/* <Link to="/contact" className="hover:text-orange-800">צור קשר</Link> */}
           <Link to="/gallery" className="hover:text-orange-800">גלריה</Link>
