@@ -33,7 +33,7 @@ function About() {
           </div>
           <div className="bg-slate-200 h-64 md:h-80 rounded-2xl shadow-inner flex items-center justify-center text-slate-400 italic">
             <img
-              src="/images/בניין.JPG"
+              src="/בניין.jpg"
               alt="מושב נווה"
               className="w-full h-full object-cover rounded-2xl shadow-lg"
             />
